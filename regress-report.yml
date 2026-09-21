@@ -3,184 +3,184 @@ test-cases:
 - summary: |
     Проверка отсутствия ошибок загрузки ресурсов
   status: pass
-  воспроизводится.
+  reproducible: yes
   
 - summary: |
     Проверка отсутствия ошибок в консоли DevTols
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка отсутствия упавших запросов в Network
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка скорости загрузки страницы
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка кэширования статических ресурсов
   status: pass
-  воспроизводится.
-  
+  reproducible: yes
+
 - summary: |
     Проверка защиты поиска от от XSS
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка перенаправления на HTTPS версию сайта
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка поиска товара по ключевому слову 
   status: fail
-  не исправлен.
+  дефект не исправлен
 
 - summary: |
     Проверка валидации и очистки вводимых данных в поиске
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка поиска товара по категории 
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка фильтрации товаров по бренду 
   status: fail
-  новый дефект.
+  новый дефект
 
 - summary: |
    Проверка фильтрации товаров по наличию 
   status: fail 
-  новый дефект.
+  новый дефект
 
 - summary: |
     Проверка фильтрации товаров по цене 
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка отображения шапки в мобильной версии 
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка отображения каталога на мобильной версии 
   status: pass
-  исправлено.
+  исправлено
 
 - summary: |
     Проверка отображения фильтров на мобильной версии 
   status: fail
-  новый дефект.
+  новый дефект
 
 - summary: |
     Проверка отображения карточек товаров на мобильной версии 
   status: fail 
-  новый дефект.
+  новый дефект
 
 - summary: |
     Проверка кликабельности кнопок на мобильной версии
   status: pass  
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка отображения названия кнопки на мобильной версии 
   status: fail
-  не исправлен.
+  дефект не исправлен
 
 - summary: |
     Проверка отсутствия горизонтальной прокрутки на мобильной версии
   status: pass 
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка совместимости сайта с последней версией браузера Chrome
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка совместимости сайта с последней версией браузера Firefox
   status: pass
-  воспроизводится.
+  reproducible: yes
   
 - summary: |
     Проверка совместимости сайта с последней версией браузера Safari
   status: pass
-  Нет возможности проверить.
+  Нет возможности проверить
 
 - summary: |
     Проверка совместимости сайта с последней версией браузера Edge
   status: pass  
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка устойчивости сайта при высокой нагрузке
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка просмотра списка товаров
   status: pass
-  воспроизводится.
+  reproducible: yes
  
 - summary: |
    Проверка просмотра подробной информации о товаре
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка отправки формы добавления товара в корзину
   status: pass 
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка содержимого корзины 
   status: pass 
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка сохранения корзины между сессиями
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка расчёта итоговой стоимости с учётом количества товаров в корзине
   status: pass 
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка оформления заказа
   status: pass  
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка доступности на различных устройствах
   status: pass
-  воспроизводится.
+  reproducible: yes
 
 - summary: |
     Проверка переключения языка интерфейса
   status: fail
-  не исправлен.
+  дефект не исправлен
 
 
 - summary: |
     Проверка локализации (перевода) на русский и английский языки
   status: fail 
-  не исправлен.
+  дефект не исправлен
 
 
 - summary: |
     Проверка доступности сайта без использования VPN
   status: pass 
-  воспроизводится.
+  reproducible: yes
 
 bugreports:
 
