@@ -4,6 +4,8 @@
   environment: |
     Yandex	150.0.7871.1024 (64-разрядная версия)
     ОС	Windows 11 Version 25H2 (Build 26200.9445)
+    Версия приложения: https://products-store.hexlet.app/
+    Дата прогона: 2026-09-21
   steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store.hexlet.app/
       - Ввести в строку поиска Kiwi
@@ -20,6 +22,8 @@
   environment: |
     Yandex	150.0.7871.1024 (64-разрядная версия)
     ОС	Windows 11 Version 25H2 (Build 26200.9445)
+    Версия приложения: https://products-store.hexlet.app/
+    Дата прогона: 2026-09-21
   steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store.hexlet.app/
       - Открыть сайт в эмуляторе мобильного устройства
@@ -36,6 +40,8 @@
   environment: |
     Yandex	150.0.7871.1024 (64-разрядная версия)
     ОС	Windows 11 Version 25H2 (Build 26200.9445)
+    Версия приложения: https://products-store.hexlet.app/
+    Дата прогона: 2026-09-21
   steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store.hexlet.app/
       - Oткрываем DevTools
@@ -52,6 +58,10 @@
 - summary: |
     Обрезание текста на кнопке на мобильной версии
   environment: |
+    Yandex	150.0.7871.1024 (64-разрядная версия)
+    ОС	Windows 11 Version 25H2 (Build 26200.9445)
+    Версия приложения: https://products-store.hexlet.app/
+    Дата прогона: 2026-09-21
     Chrome DevTools Mobile View
     Устройство: iPhone SE
     Ширина экрана: 375px
@@ -70,6 +80,8 @@
   environment: |
     Yandex	150.0.7871.1024 (64-разрядная версия)
     ОС	Windows 11 Version 25H2 (Build 26200.9445)
+    Версия приложения: https://products-store.hexlet.app/
+    Дата прогона: 2026-09-21
   steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store.hexlet.app/
       - Переключить язык интерфейса на Russian.
@@ -86,6 +98,8 @@
   environment: |
     Yandex	150.0.7871.1024 (64-разрядная версия)
     ОС	Windows 11 Version 25H2 (Build 26200.9445)
+    Версия приложения: https://products-store.hexlet.app/
+    Дата прогона: 2026-09-21
   steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store.hexlet.app/
       - Переключить язык интерфейса на Russian.
